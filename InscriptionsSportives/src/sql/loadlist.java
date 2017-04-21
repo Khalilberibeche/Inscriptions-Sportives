@@ -9,7 +9,7 @@ import javax.swing.JList;
 
 public class loadlist {
 	
-	public static void loadlistPersonne(Connection connection, JList listPersonne)
+	public static void loadlistPersonne(Connection connection, JList<String> listPersonne)
 	{
 		try
 		{	
@@ -17,7 +17,7 @@ public class loadlist {
 			PreparedStatement pst = connection.prepareStatement(query);
 			ResultSet rs = pst.executeQuery();
 			
-			DefaultListModel DLM = new DefaultListModel();
+			DefaultListModel<String> DLM = new DefaultListModel<String>();
 			
 			while(rs.next())
 			{
@@ -34,7 +34,7 @@ public class loadlist {
 		}
 	}
 	
-	public static void loadlistEquipe(Connection connection, JList listEquipe)
+	public static void loadlistEquipe(Connection connection, JList<String> listEquipe)
 	{
 		try
 		{	
@@ -42,7 +42,7 @@ public class loadlist {
 			PreparedStatement pst = connection.prepareStatement(query);
 			ResultSet rs = pst.executeQuery();
 			
-			DefaultListModel DLM = new DefaultListModel();
+			DefaultListModel<String> DLM = new DefaultListModel<String>();
 			
 			while(rs.next())
 			{
@@ -59,7 +59,7 @@ public class loadlist {
 		}
 	}
 	
-	public static void loadlistPersEqui(Connection connection, JList listCandidat)
+	public static void loadlistPersEqui(Connection connection, JList<String> listCandidat)
 	{
 		try
 		{	
@@ -72,7 +72,7 @@ public class loadlist {
 			PreparedStatement pst2 = connection.prepareStatement(query2);
 			ResultSet rs2 = pst2.executeQuery();
 			
-			DefaultListModel DLM = new DefaultListModel();
+			DefaultListModel<String> DLM = new DefaultListModel<String>();
 			
 			while(rs1.next())
 			{
@@ -96,7 +96,7 @@ public class loadlist {
 		}
 	}
 	
-	public static void loadlistCompetition(Connection connection, JList listCompetition)
+	public static void loadlistCompetition(Connection connection, JList<String> listCompetition)
 	{
 		try
 		{	
@@ -104,7 +104,7 @@ public class loadlist {
 			PreparedStatement pst = connection.prepareStatement(query);
 			ResultSet rs = pst.executeQuery();
 			
-			DefaultListModel DLM = new DefaultListModel();
+			DefaultListModel<String> DLM = new DefaultListModel<String>();
 			
 			while(rs.next())
 			{
@@ -121,7 +121,7 @@ public class loadlist {
 		}
 	}
 	
-	public static void loadlistEquipe2(Connection connection, JList listEquipe2)
+	public static void loadlistEquipe2(Connection connection, JList<String> listEquipe2)
 	{
 		try
 		{	
@@ -129,7 +129,7 @@ public class loadlist {
 			PreparedStatement pst = connection.prepareStatement(query);
 			ResultSet rs = pst.executeQuery();
 			
-			DefaultListModel DLM = new DefaultListModel();
+			DefaultListModel<String> DLM = new DefaultListModel<String>();
 			
 			while(rs.next())
 			{
@@ -146,7 +146,7 @@ public class loadlist {
 		}
 	}
 	
-	public static void loadlistCompetition2(Connection connection, JList listCompetition2)
+	public static void loadlistCompetition2(Connection connection, JList<String> listCompetition2)
 	{
 		try
 		{	
@@ -154,7 +154,7 @@ public class loadlist {
 			PreparedStatement pst = connection.prepareStatement(query);
 			ResultSet rs = pst.executeQuery();
 			
-			DefaultListModel DLM = new DefaultListModel();
+			DefaultListModel<String> DLM = new DefaultListModel<String>();
 			
 			while(rs.next())
 			{

@@ -72,7 +72,7 @@ public class vue {
 		
 		JTabbedPane tabbedPane = new JTabbedPane(JTabbedPane.TOP);
 		tabbedPane.setBounds(0, 266, 857, 388);
-		tabbedPane.setFont(new Font("Tahoma", Font.PLAIN, 14));
+		tabbedPane.setFont(new Font("Test", Font.PLAIN, 14));
 		frame.getContentPane().add(tabbedPane);
 		
 		JPanel GrdpanelCompetition = new JPanel();
@@ -122,22 +122,22 @@ public class vue {
 		scrollPane_2.setViewportView(tableCompetition);
 		
 		JLabel labelIdcomp = new JLabel("id_comp :");
-		labelIdcomp.setFont(new Font("Tahoma", Font.PLAIN, 15));
+		labelIdcomp.setFont(new Font("Test", Font.PLAIN, 15));
 		labelIdcomp.setBounds(557, 13, 72, 16);
 		panelCompetition.add(labelIdcomp);
 		
 		JLabel labelNomcomp = new JLabel("Nom :");
-		labelNomcomp.setFont(new Font("Tahoma", Font.PLAIN, 15));
+		labelNomcomp.setFont(new Font("Test", Font.PLAIN, 15));
 		labelNomcomp.setBounds(557, 55, 56, 16);
 		panelCompetition.add(labelNomcomp);
 		
 		JLabel labelDatecloture = new JLabel("Date cloture :");
-		labelDatecloture.setFont(new Font("Tahoma", Font.PLAIN, 15));
+		labelDatecloture.setFont(new Font("Test", Font.PLAIN, 15));
 		labelDatecloture.setBounds(557, 96, 89, 16);
 		panelCompetition.add(labelDatecloture);
 		
 		JLabel labelEnequipe = new JLabel("En Equipe :");
-		labelEnequipe.setFont(new Font("Tahoma", Font.PLAIN, 15));
+		labelEnequipe.setFont(new Font("Test", Font.PLAIN, 15));
 		labelEnequipe.setBounds(557, 144, 78, 16);
 		panelCompetition.add(labelEnequipe);
 		
@@ -257,7 +257,7 @@ public class vue {
 		
 		listCandidat = new JList();
 		scrollPane_5.setViewportView(listCandidat);
-		listCandidat.setFont(new Font("Tahoma", Font.PLAIN, 16));
+		listCandidat.setFont(new Font("Test", Font.PLAIN, 16));
 		
 		JScrollPane scrollPane_6 = new JScrollPane();
 		scrollPane_6.setBounds(329, 42, 285, 272);
@@ -265,7 +265,7 @@ public class vue {
 		
 		listCompetition = new JList();
 		scrollPane_6.setViewportView(listCompetition);
-		listCompetition.setFont(new Font("Tahoma", Font.PLAIN, 16));
+		listCompetition.setFont(new Font("Test", Font.PLAIN, 16));
 		
 		JButton btnAjouterCand = new JButton("Ajouter");
 		btnAjouterCand.addActionListener(new ActionListener() {
@@ -307,12 +307,12 @@ public class vue {
 		panelAjoutCandidat.add(btnRetirerCand);
 		
 		JLabel labelCand = new JLabel("Candidats");
-		labelCand.setFont(new Font("Tahoma", Font.PLAIN, 15));
+		labelCand.setFont(new Font("Test", Font.PLAIN, 15));
 		labelCand.setBounds(118, 13, 78, 16);
 		panelAjoutCandidat.add(labelCand);
 		
 		JLabel labelComp = new JLabel("Comp\u00E9titions");
-		labelComp.setFont(new Font("Tahoma", Font.PLAIN, 15));
+		labelComp.setFont(new Font("Test", Font.PLAIN, 15));
 		labelComp.setBounds(422, 13, 88, 16);
 		panelAjoutCandidat.add(labelComp);
 		
@@ -343,10 +343,10 @@ public class vue {
 				AfficheTable.AfficheTableCandComp(connection, tableCandComp, selectedValue);
 			}
 		});
-		listCompetition2.setFont(new Font("Tahoma", Font.PLAIN, 16));
+		listCompetition2.setFont(new Font("Test", Font.PLAIN, 16));
 		
 		JLabel labelComp2 = new JLabel("Competitions");
-		labelComp2.setFont(new Font("Tahoma", Font.PLAIN, 15));
+		labelComp2.setFont(new Font("Test", Font.PLAIN, 15));
 		labelComp2.setBounds(100, 13, 97, 16);
 		panelCandidatComp.add(labelComp2);
 		
@@ -385,17 +385,17 @@ public class vue {
 		
 		
 		JLabel labelNompers = new JLabel("Nom :");
-		labelNompers.setFont(new Font("Tahoma", Font.PLAIN, 15));
+		labelNompers.setFont(new Font("Test", Font.PLAIN, 15));
 		labelNompers.setBounds(557, 55, 56, 16);
 		panelPersonne.add(labelNompers);
 		
 		JLabel labelPrenompers = new JLabel("Prenom :");
-		labelPrenompers.setFont(new Font("Tahoma", Font.PLAIN, 15));
+		labelPrenompers.setFont(new Font("Test", Font.PLAIN, 15));
 		labelPrenompers.setBounds(557, 96, 89, 16);
 		panelPersonne.add(labelPrenompers);
 		
 		JLabel labelEmailpers = new JLabel("Email :");
-		labelEmailpers.setFont(new Font("Tahoma", Font.PLAIN, 15));
+		labelEmailpers.setFont(new Font("Test", Font.PLAIN, 15));
 		labelEmailpers.setBounds(557, 144, 78, 16);
 		panelPersonne.add(labelEmailpers);
 		
@@ -514,7 +514,7 @@ public class vue {
 		textFieldIdcandP.setColumns(10);
 		
 		JLabel labelIdcandP = new JLabel("id_candP :");
-		labelIdcandP.setFont(new Font("Tahoma", Font.PLAIN, 15));
+		labelIdcandP.setFont(new Font("Test", Font.PLAIN, 15));
 		labelIdcandP.setBounds(557, 13, 72, 16);
 		panelPersonne.add(labelIdcandP);
 		
@@ -539,7 +539,7 @@ public class vue {
 		
 		listPersonne = new JList();
 		scrollPane_8.setViewportView(listPersonne);
-		listPersonne.setFont(new Font("Tahoma", Font.PLAIN, 16));
+		listPersonne.setFont(new Font("Test", Font.PLAIN, 16));
 		
 		JScrollPane scrollPane_9 = new JScrollPane();
 		scrollPane_9.setBounds(329, 42, 285, 272);
@@ -547,7 +547,7 @@ public class vue {
 		
 		listEquipe = new JList();
 		scrollPane_9.setViewportView(listEquipe);
-		listEquipe.setFont(new Font("Tahoma", Font.PLAIN, 16));
+		listEquipe.setFont(new Font("Test", Font.PLAIN, 16));
 		
 		JButton btnAjouterPers = new JButton("Ajouter");
 		btnAjouterPers.addActionListener(new ActionListener() {
@@ -591,12 +591,12 @@ public class vue {
 		panelAjoutPersonne.add(btnRetirerPers);
 		
 		JLabel labelPers = new JLabel("Personnes");
-		labelPers.setFont(new Font("Tahoma", Font.PLAIN, 15));
+		labelPers.setFont(new Font("Test", Font.PLAIN, 15));
 		labelPers.setBounds(118, 13, 78, 16);
 		panelAjoutPersonne.add(labelPers);
 		
 		JLabel labelEqui = new JLabel("Equipes");
-		labelEqui.setFont(new Font("Tahoma", Font.PLAIN, 15));
+		labelEqui.setFont(new Font("Test", Font.PLAIN, 15));
 		labelEqui.setBounds(422, 13, 88, 16);
 		panelAjoutPersonne.add(labelEqui);
 		
@@ -641,7 +641,7 @@ public class vue {
 		scrollPane_1.setViewportView(tableEquipe);
 		
 		JLabel labelNomequi = new JLabel("Nom :");
-		labelNomequi.setFont(new Font("Tahoma", Font.PLAIN, 15));
+		labelNomequi.setFont(new Font("Test", Font.PLAIN, 15));
 		labelNomequi.setBounds(561, 105, 56, 16);
 		panelEquipe.add(labelNomequi);
 		
@@ -736,7 +736,7 @@ public class vue {
 		textFieldIdcandE.setColumns(10);
 		
 		JLabel labelIdcandE = new JLabel("id_candE :");
-		labelIdcandE.setFont(new Font("Tahoma", Font.PLAIN, 15));
+		labelIdcandE.setFont(new Font("Test", Font.PLAIN, 15));
 		labelIdcandE.setBounds(554, 60, 77, 16);
 		panelEquipe.add(labelIdcandE);
 		
@@ -769,10 +769,10 @@ public class vue {
 				AfficheTable.AfficheTableMembEquip(connection, tableMembEquip, selectedValue);
 			}
 		});
-		listEquipe2.setFont(new Font("Tahoma", Font.PLAIN, 16));
+		listEquipe2.setFont(new Font("Test", Font.PLAIN, 16));
 		
 		JLabel labelEqui2 = new JLabel("Equipes");
-		labelEqui2.setFont(new Font("Tahoma", Font.PLAIN, 15));
+		labelEqui2.setFont(new Font("Test", Font.PLAIN, 15));
 		labelEqui2.setBounds(100, 13, 97, 16);
 		panelMembreEqui.add(labelEqui2);
 		

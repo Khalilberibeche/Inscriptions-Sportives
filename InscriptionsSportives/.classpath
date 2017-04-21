@@ -4,5 +4,6 @@
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="lib" path="/CoursJava/lib/commandLine.jar"/>
 	<classpathentry kind="lib" path="/CoursJava/lib/mysql-connector-java-5.1.25-bin.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Khalil/Desktop/inscription/ressources/rs2xml.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

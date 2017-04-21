@@ -15,7 +15,7 @@ public class RequeteDelete {
 	{
 		try
 		{
-			String query1 = "delete from candidat where id_cand = '"+textFieldIdcandP.getText()+"'";
+			String query1 = "delete from personne where id_candP = '"+textFieldIdcandP.getText()+"'";
 			Statement s = connection.createStatement();
 			s.executeUpdate(query1);
 			s.close();
@@ -32,9 +32,9 @@ public class RequeteDelete {
 	{
 		try
 		{
-			String query1 = "delete from candidat where id_cand = '"+textFieldIdcandE.getText()+"'";
+			String query5 = "delete from equipe where id_candE = '"+textFieldIdcandE.getText()+"'";
 			Statement s = connection.createStatement();
-			s.executeUpdate(query1);
+			s.executeUpdate(query5);
 			s.close();
 			JOptionPane.showMessageDialog(null, "Données supprimées !");
 		}
@@ -52,7 +52,7 @@ public class RequeteDelete {
 			Statement s = connection.createStatement();
 			s.executeUpdate(query1);
 			s.close();
-			JOptionPane.showMessageDialog(null, "Données supprimer !");
+			JOptionPane.showMessageDialog(null, "Données supprimées !");
 		}
 		catch(Exception e1)
 		{
